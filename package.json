@@ -1,0 +1,14 @@
+{
+  "name": "google-shopping-scraper",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jay Kelly",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "puppeteer": "^1.12.2"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}

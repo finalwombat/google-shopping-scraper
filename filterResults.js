@@ -13,7 +13,8 @@ function filterResults(items) {
 				title: item.querySelector("div.eIuuYe a").innerText,
 				link: item.querySelector("div.eIuuYe a").getAttribute('href'),
                 price: item.querySelector("div.mQ35Be").innerText,
-                description: item.querySelector('div.na4ICd:not(.TxCHDf)').innerText,
+				description: item.querySelector('div.na4ICd:not(.TxCHDf)').innerText,
+				thumbnail: item.querySelector('div.sh-dlr__thumbnail img').src,
 				reviews: getReviews(item)
 		})
 );

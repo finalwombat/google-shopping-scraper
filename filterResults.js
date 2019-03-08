@@ -1,4 +1,4 @@
-function filterResults(items) {
+export default function filterResults(items) {
     
     // Check if there are reviews - return object with text and link
     function getReviews(item) {
@@ -19,4 +19,3 @@ function filterResults(items) {
 );
 }
 
-module.exports = filterResults

@@ -1,6 +1,6 @@
-const puppeteer = require("puppeteer");
-const filterResults = require("./filterResults");
-const getNextUrl = require('./pages').getNextUrl
+import puppeteer from "puppeteer"
+import filterResults from "./filterResults"
+
 
 const scrape = async options => {
 

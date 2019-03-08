@@ -9,6 +9,13 @@
     "puppeteer": "^1.12.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
     "jest": "^24.1.0"
+  },
+  "scripts": {
+    "start": "exec babel-node index.test.js",
+    "test": "jest"
   }
 }
